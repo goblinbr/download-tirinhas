@@ -1,0 +1,19 @@
+{
+  "name": "download-tirinhas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "all": "node index.js",
+    "vidaprog": "node index.js --vidaprog",
+    "vidasup": "node index.js --vidasup",
+    "usq": "node index.js --usq",
+    "xkcd": "node index.js --xkcd"
+  },
+  "author": "Rodrigo de Bona Sartor",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "1.0.0-rc.2"
+  }
+}
